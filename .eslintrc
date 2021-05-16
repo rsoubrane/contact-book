@@ -1,0 +1,43 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true,
+			"impliedStrict": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true
+	},
+	"extends": [
+		"airbnb",
+		"prettier",
+		"alloy",
+		"plugin:jsx-a11y/recommended",
+		"plugin:react-hooks/recommended"
+	],
+	"plugins": ["prettier", "react", "react-hooks"],
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"paths": ["src"],
+				"extensions": [".js", ".jsx"]
+			}
+		},
+		"react": {
+			"version": "17"
+		}
+	},
+	"rules": {
+		"import/no-cycle": 0,
+		"import/no-extraneous-dependencies": 0,
+		"import/no-unresolved": 0,
+		"react/jsx-props-no-spreading": 0,
+		"react/no-array-index-key": 0,
+		"react/prop-types": 0,
+		"react/react-in-jsx-scope": 0
+	}
+}
