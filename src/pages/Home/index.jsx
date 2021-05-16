@@ -21,7 +21,7 @@ import { Container, Grid, useMediaQuery, useTheme } from '@material-ui/core';
 // Components
 import Page from 'components/Layout/Page';
 import routes from 'routes';
-import ContactList from './ContactList';
+import ContactList from './components/ContactList';
 import ContactDialog from './dialogs/Contact';
 import DetailsDialog from './dialogs/Details';
 import AlertDialog from './dialogs/Alert';

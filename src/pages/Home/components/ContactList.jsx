@@ -23,7 +23,7 @@ import MFab from 'components/Material/MFab';
 // Hooks & Utils
 import { getFullName } from 'utils/formatName';
 import ContactCard from './ContactCard';
-import SearchError from './components/SearchError';
+import SearchError from './SearchError';
 
 // ----------------------------------------------------------------------
 
