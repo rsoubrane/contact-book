@@ -29,9 +29,7 @@ export default function UploadAvatar({ currentAvatar, returnAvatar }) {
 	const classes = useStyles();
 	const [isLoading, setIsLoading] = useState(false);
 	const [isError, setIsError] = useState(null);
-
 	const [file, setFile] = useState(currentAvatar);
-	console.log('file: ', file);
 
 	const onFileGenerate = () => {
 		const id = faker.datatype.uuid();
