@@ -19,6 +19,5 @@ firebase-debug.log
 /build
 
 # yarn
-yarn.lock
 yarn-debug.log*
 yarn-error.log*
